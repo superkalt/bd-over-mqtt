@@ -12,13 +12,17 @@ Building Data over Message Queuing Telemetry Transport
         "Status_Flags": "normal",
         "Event_State": "normal",
         "Out_Of_Service": false,
-        "Units": "°C",
-        "Description": "aktuelle Raumtemperatur",
-        "Min_Pres_Value": -10,
-        "Max_Pres_Value": 30,
-        "Limit_Enable": false,
-        "High_Limit": 20,
-        "Low_Limit": 5
+        "Visualization": {
+            "Description": "aktuelle Raumtemperatur",
+            "Units": "°C",
+            "Min_Pres_Value": -10,
+            "Max_Pres_Value": 30
+        },
+        "Limit": {
+            "Enable": false,
+            "High": 20,
+            "Low": 5
+        }
     }
 }
 ```
