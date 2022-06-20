@@ -28,7 +28,7 @@ Building Data over Message Queuing Telemetry Transport
             "Min_Pres_Value": -10,
             "Max_Pres_Value": 30
           },
-          "Limit": {
+          "Surveillance": {
             "Enable": false,
             "High": 20,
             "Low": 5
